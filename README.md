@@ -5,7 +5,7 @@ nex2me maven repository
 Uso de dependências do repositório Maven no seu projeto
 -------------------------------------------------------
 
-A seguir um exemplo de uso da dependência *npi-core-api* do repositório Maven no NPI. 
+A seguir um exemplo de uso da dependência *controle-acesso* do repositório Maven na nex2me. 
 Basta configurar a API como dependência do seu projeto no arquivo pom.xml:
 
 ```xml
@@ -24,8 +24,8 @@ Basta configurar a API como dependência do seu projeto no arquivo pom.xml:
     ...
     <dependency>
       <groupId>seguranca</groupId>
-			<artifactId>controle-acesso</artifactId>
-			<version>5.0</version>
+      <artifactId>controle-acesso</artifactId>
+      <version>5.0</version>
     </dependency>
     ...
   </dependencies>
